@@ -71,8 +71,10 @@ function doPost(e) {
       "Received: " + when + " ET"
     ].join("\n");
 
+    // The setup test only emails whoever runs it, not Donnie.
+    var to = d.page === "setup-test" ? Session.getEffectiveUser().getEmail() : RECIPIENTS.join(",");
     MailApp.sendEmail({
-      to: RECIPIENTS.join(","),
+      to: to,
       subject: subject,
       body: body,
       replyTo: d.email || undefined,
@@ -107,13 +109,13 @@ function json(obj) {
   return ContentService.createTextOutput(JSON.stringify(obj)).setMimeType(ContentService.MimeType.JSON);
 }
 
-/** Run once from the editor to approve permissions and send yourself a test email. */
+/** Run once from the editor: approves permissions, adds a test row and emails only you. Delete the test row after. */
 function testLead() {
   var fake = {
     postData: { contents: JSON.stringify({
       name: "Test Lead", phone: "555-555-0100", email: "eddiewaked+ddd@gmail.com", state: "NJ",
       owned_last_3y: "no", timeline: "0-3", credit: "680-739", savings: "5-20k", best_time: "evening",
-      hot: true, page: "test", attribution: { last: { utm_source: "test", utm_content: "setup-check" } }
+      hot: true, page: "setup-test", attribution: { last: { utm_source: "test", utm_content: "setup-check" } }
     }) }
   };
   Logger.log(doPost(fake).getContent());
