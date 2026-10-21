@@ -11,7 +11,8 @@ Check items off in place and commit, so the history shows who closed what and wh
 - [ ] Final consent wording for the quiz. Placeholder text is live in `site/config.js`.
 
 ## PZ
-- [ ] Tell Donnie leads are live and what the email looks like (below). Decide who answers Instagram comments/DMs (default: PZ).
+- [ ] Tell Donnie leads are live. Emails come from "Donnie Does Deals" with the subject "New first-time buyer: Name (State)", or "[HOT] …" for buyers within 6 months with 620+ credit.
+- [ ] Decide who answers Instagram comments and DMs (default: PZ).
 
 ## Donnie
 - [ ] Add the sender "Donnie Does Deals" (ebwaked87@gmail.com) to contacts so lead emails don't land in spam.
