@@ -1,0 +1,56 @@
+# Higgsfield credit log — Donnie Does Deals
+
+Source of truth: Higgsfield's own transaction history (`transactions` in the Higgsfield tools), reconciled to the job IDs in the
+"Donnie Does Deals" Higgsfield project. Times are UTC, as Higgsfield reports them. Update this file at the end of every
+session or scheduled run that spends credits, and commit it.
+
+**How the credits are split:** Higgsfield has one credit balance per account. There are no per-project budgets. This account
+is shared with MindShark, so the split is by date: the 500-credit package bought 2026-10-21 03:35 UTC is the DDD budget, and
+every spend since then is DDD's. MindShark had 9.4 credits left before that purchase.
+
+## Summary
+
+| | Credits |
+|---|---|
+| DDD budget (credit package, 2026-10-21) | 500.0 |
+| Spent by DDD to date | 95.1 |
+| **DDD remaining** | **404.9** |
+| Account balance (DDD remaining + 9.4 MindShark leftover) | 414.3 |
+
+## Ledger
+
+| UTC time | Model | Credits | What | Job IDs |
+|---|---|---|---|---|
+| 2026-10-21 03:35 | Credit package | +500.0 | DDD budget purchased | — |
+| 03:37–03:41 | Seed Audio ×6 | −15.6 | Voice auditions for Donnie (6 presets, Kevin picked) | not filed in the project |
+| 05:02 | Seed Audio | −2.9 | Pilot 1 Donnie take | `7d1943f7` |
+| 05:02 | Seed Audio | −1.2 | Sign-off "Donnie does deals." | `1800af26` |
+| 05:04 | Seed Audio ×2 | −2.4 | Therapist voice auditions (Linda picked) | `80967ee6`, `a86b1fb0` |
+| 05:04 | Nano Banana 2 ×3 | −6.0 | Donnie keyframes A/B, OTS v1 | `0a43c1e0`, `56041129`, `9f3523f7` |
+| 05:06 | Nano Banana 2 ×2 | −4.0 | Therapist portraits | `3884a1d7`, `c861f31b` |
+| 05:08 | Nano Banana 2 ×2 | −4.0 | Therapist with glasses | `3d87735e`, `b63ce03b` |
+| 05:09 | Nano Banana 2 | −2.0 | OTS v2 | `b1a7d7e2` |
+| 05:10 | Wan 2.7 12s 720p | −18.0 | Pilot 1 v1 Donnie clip (old office) | `5f4f95e5` |
+| 05:26 | Nano Banana 2 ×4 | −8.0 | Short-hair options A/B, brownstone office options A/B | `0b911f13`, `7cf994a4`, `dc5fe7d7`, `f913a7ff` |
+| 05:31 | Wan 2.7 12s 720p | −18.0 | Pilot 1 v2 Donnie clip (office A) | `ecdbc9b7` |
+| 05:31 | Nano Banana 2 ×2 | −4.0 | Therapist in office A, brick behind | `eb614158`, `9f8340e1` |
+| 05:36 | Wan 2.7 2s ×2 | 0.0 | Therapist lip-sync, failed (−6.0 charged, +6.0 refunded) | `fe60deba`, `d3be589f` |
+| 05:38–05:39 | Wan 2.7 3s ×2 | −9.0 | Therapist lip-sync reverse shots | `5c298908`, `3ea6623d` |
+| | | **−95.1** | **Total spent** | |
+
+## By deliverable
+
+| Deliverable | Credits |
+|---|---|
+| Voice casting (Donnie + therapist) | 18.0 |
+| Look development (Donnie, therapist, office, therapist-in-office keyframes) | 24.0 |
+| Pilot 1 VO (Donnie take + sign-off, reused in v2) | 4.1 |
+| Pilot 1 v1 (old office, OTS stills; superseded) | 22.0 |
+| Pilot 1 v2 (Donnie clip + 2 lip-sync shots) | 27.0 |
+| **Total** | **95.1** |
+
+Pilot 1 v2's video generations came to 27 credits. Later episodes reuse the cast, voices and set, so expect about
+20–30 credits each.
+
+Correction: the earlier Drive copy of this log said about 70 credits. It undercounted the voice auditions and images. The
+figures above come straight from Higgsfield's transaction history.

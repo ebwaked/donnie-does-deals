@@ -15,6 +15,8 @@ Static landing page + 60-second first-time buyer check. No build step.
 | `site/privacy.html` | Plain-language privacy page (needed for Meta lead ads) |
 | `apps-script/Code.gs` | Lead endpoint: logs each lead to the Leads sheet and emails it (not published) |
 | `brand/` | Endcard template for videos (not published) |
+| `ops/TODO.md` | Open items, who owns them, and the posting plan (not published) |
+| `ops/CREDIT_LOG.md` | Higgsfield credit ledger, reconciled to job IDs (not published) |
 
 ## Hosting: Cloudflare, no Azure
 1. Cloudflare dashboard → Workers & Pages → Create → connect GitHub → pick `ebwaked/donnie-does-deals`.
