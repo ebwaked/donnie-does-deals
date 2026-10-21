@@ -1,7 +1,7 @@
 // Donnie Does Deals — site settings. Edit these, push, and Cloudflare redeploys.
 window.DDD_CONFIG = {
   // Google Apps Script web app URL (Deploy > Web app). Empty = quiz runs but leads are not sent.
-  leadEndpoint: "",
+  leadEndpoint: "https://script.google.com/macros/s/AKfycbwYT6JvJfDj2FrhlO6ulqFf569p-kGU1AtcII2tYA_SqD16-WRXuvF7yDGRQSsG2nFUUQ/exec",
 
   // Tracking pixels. Leave empty to keep them off.
   metaPixelId: "",
