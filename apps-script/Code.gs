@@ -91,9 +91,13 @@ function getSheet() {
   var ss = SpreadsheetApp.getActiveSpreadsheet();
   var sheet = ss.getSheetByName(SHEET_NAME);
   if (!sheet) { sheet = ss.getSheets()[0]; sheet.setName(SHEET_NAME); }
-  if (sheet.getLastRow() === 0 || sheet.getRange(1, 1).getValue() !== HEADERS[0]) {
-    sheet.clear();
+  if (sheet.getLastRow() === 0) {
     sheet.appendRow(HEADERS);
+    sheet.setFrozenRows(1);
+  } else if (sheet.getRange(1, 1).getValue() !== HEADERS[0]) {
+    // Never clear existing rows: add a header row on top instead.
+    sheet.insertRowBefore(1);
+    sheet.getRange(1, 1, 1, HEADERS.length).setValues([HEADERS]);
     sheet.setFrozenRows(1);
   }
   return sheet;
