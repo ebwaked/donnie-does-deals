@@ -17,12 +17,15 @@
   --rosso: #b8333a;
   --display: "Bodoni Moda", "Didot", "Bodoni 72", Georgia, serif;
   --text: "Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
-  --wrap: 68rem;
+  --wrap: 74rem;
   --gutter: clamp(1rem, 5vw, 2.5rem);
 }
 
 *, *::before, *::after { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
+/* Scale the whole page up on bigger screens so desktop doesn't read tiny. */
+@media (min-width: 64rem) { html { font-size: 112.5%; } }
+@media (min-width: 90rem) { html { font-size: 125%; } }
 body {
   margin: 0;
   background: var(--shirt);
@@ -81,9 +84,9 @@ p { margin: 0; }
   gap: clamp(4rem, 14vh, 8rem);
 }
 .hero-body { display: grid; gap: 2.5rem; align-items: end; }
-.hero-copy { max-width: 38rem; }
+.hero-copy { max-width: 40rem; }
 .hero h1 {
-  font-size: clamp(2.65rem, 10vw, 4.75rem);
+  font-size: clamp(2.65rem, 7.4vw, 5.25rem);
   line-height: 1.02;
   letter-spacing: -0.012em;
   font-variation-settings: "opsz" 32;
@@ -95,15 +98,16 @@ p { margin: 0; }
 
 .portrait {
   margin: 0; justify-self: start;
-  width: min(15rem, 62vw); aspect-ratio: 4 / 5;
+  width: min(16rem, 70vw); aspect-ratio: 4 / 5;
   border: 2px solid var(--gilt); outline: 1px solid var(--gilt-shade); outline-offset: 5px;
   border-radius: 50% / 42%; overflow: hidden;
 }
 .portrait img { width: 100%; height: 100%; object-fit: cover; }
 @media (min-width: 52rem) {
-  .hero-body { grid-template-columns: 1fr auto; }
-  .portrait { justify-self: end; width: 17rem; }
+  .hero-body { grid-template-columns: 1fr auto; column-gap: 4rem; }
+  .portrait { justify-self: end; width: clamp(16rem, 24vw, 22rem); }
 }
+.portrait img { object-position: 50% 0; }
 
 /* ---- Buttons ---- */
 .btn {

@@ -22,5 +22,5 @@ window.DDD_CONFIG = {
     "By sending this, you agree that Donnie and his team can call, text or email you about buying a home. Message and data rates may apply. You can opt out any time.",
 
   // Set to a photo path (e.g. "assets/donnie.jpg") once we have one.
-  portrait: ""
+  portrait: "assets/donnie.jpg"
 };
