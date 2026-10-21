@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Donnie Does Deals | First-time home buyers</title>
+  <meta name="description" content="Most first-time buyers put down a lot less than 20%. Take the 60-second check and Donnie will walk you through what you could qualify for.">
+  <meta property="og:title" content="Donnie Does Deals">
+  <meta property="og:description" content="Stop paying off your landlord's house. Take the 60-second first-time buyer check.">
+  <meta name="theme-color" content="#1D2433">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,700;1,6..96,500&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="config.js"></script>
+</head>
+<body>
+  <header class="worsted hero">
+    <div class="wrap">
+      <a class="mark" href="/" aria-label="Donnie Does Deals home">
+        <span class="mark-name">Donnie</span>
+        <span class="mark-tag">does deals</span>
+        <span class="stitch" aria-hidden="true"><i></i><i></i><i></i></span>
+      </a>
+
+      <div class="hero-body">
+        <div class="hero-copy">
+          <h1>Stop paying off your landlord's house.</h1>
+          <p class="lede">Most first-time buyers put down a lot less than 20%, and plenty get help with the down payment. Answer five quick questions and Donnie will walk you through what you could qualify for.</p>
+          <button class="btn btn-gilt" type="button" data-open-quiz>Start the 60-second check</button>
+          <p class="fine">Free. No credit check. No obligation.</p>
+        </div>
+        <figure class="portrait" hidden>
+          <img alt="Donnie" src="">
+        </figure>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="shirt steps" aria-labelledby="how">
+      <div class="wrap">
+        <h2 id="how">How it works</h2>
+        <ol class="step-list">
+          <li>
+            <div>
+              <h3>Answer five questions</h3>
+              <p>Where you're buying, when, and roughly where your credit and savings are. No credit check.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>Donnie looks at your situation</h3>
+              <p>Including the down payment help available where you're buying. There are more than 2,700 programs across the country, and most buyers never hear about them.</p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <h3>You get a straight answer</h3>
+              <p>What you could afford, what help you might get, and what to stay away from until closing. Before you fall in love with a house.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="shirt word" aria-label="A word from Donnie">
+      <div class="wrap">
+        <blockquote>
+          <p>First-time buyers are what I do. I'll tell you straight what you can afford, what help is out there, and what not to touch until you've got the keys.</p>
+          <footer>Donnie</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="worsted closer">
+      <div class="wrap">
+        <h2>Five questions. Sixty seconds.</h2>
+        <button class="btn btn-gilt" type="button" data-open-quiz>Start the check</button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <span class="foot-mark">Donnie Does Deals</span>
+      <p class="foot-disclosure" data-disclosure hidden></p>
+      <p><a href="privacy.html">Privacy</a> <span aria-hidden="true">/</span> <a data-contact href="#">Email Donnie</a></p>
+    </div>
+  </footer>
+
+  <dialog class="quiz" aria-labelledby="quiz-title">
+    <form class="quiz-inner" novalidate>
+      <div class="quiz-top">
+        <button class="quiz-back" type="button" data-back>Back</button>
+        <p class="quiz-count" aria-live="polite"></p>
+        <button class="quiz-close" type="button" data-close aria-label="Close">Close</button>
+      </div>
+      <div class="progress" aria-hidden="true"><span></span></div>
+
+      <h2 id="quiz-title" class="visually-hidden">First-time buyer check</h2>
+
+      <fieldset class="q" data-key="state">
+        <legend>What state are you buying in?</legend>
+        <label class="field">
+          <span class="visually-hidden">State</span>
+          <select name="state" required>
+            <option value="">Pick a state</option>
+          </select>
+        </label>
+        <button class="btn btn-ink" type="button" data-next>Next</button>
+      </fieldset>
+
+      <fieldset class="q" data-key="owned">
+        <legend>Have you owned a home in the last 3 years?</legend>
+        <div class="choices">
+          <button type="button" value="no">No</button>
+          <button type="button" value="yes">Yes</button>
+        </div>
+      </fieldset>
+
+      <fieldset class="q" data-key="timeline">
+        <legend>When do you want to buy?</legend>
+        <div class="choices">
+          <button type="button" value="0-3">In the next 3 months</button>
+          <button type="button" value="3-6">In 3 to 6 months</button>
+          <button type="button" value="6-12">In 6 to 12 months</button>
+          <button type="button" value="looking">Just looking for now</button>
+        </div>
+      </fieldset>
+
+      <fieldset class="q" data-key="credit">
+        <legend>Roughly where's your credit?</legend>
+        <div class="choices">
+          <button type="button" value="740+">740 or higher</button>
+          <button type="button" value="680-739">680 to 739</button>
+          <button type="button" value="620-679">620 to 679</button>
+          <button type="button" value="<620">Under 620</button>
+          <button type="button" value="unsure">Not sure</button>
+        </div>
+      </fieldset>
+
+      <fieldset class="q" data-key="savings">
+        <legend>How much have you saved toward a down payment?</legend>
+        <div class="choices">
+          <button type="button" value="0">Nothing yet</button>
+          <button type="button" value="<5k">Under $5,000</button>
+          <button type="button" value="5-20k">$5,000 to $20,000</button>
+          <button type="button" value="20k+">More than $20,000</button>
+        </div>
+      </fieldset>
+
+      <fieldset class="q" data-key="contact">
+        <legend>Where should Donnie reach you?</legend>
+        <label class="field"><span>Name</span><input name="name" autocomplete="name" required></label>
+        <label class="field"><span>Phone</span><input name="phone" type="tel" autocomplete="tel" inputmode="tel" required></label>
+        <label class="field"><span>Email</span><input name="email" type="email" autocomplete="email" required></label>
+        <div class="field">
+          <span>Best time to call</span>
+          <div class="choices choices-row" data-key="besttime">
+            <button type="button" value="morning">Morning</button>
+            <button type="button" value="afternoon">Afternoon</button>
+            <button type="button" value="evening">Evening</button>
+          </div>
+        </div>
+        <label class="hp" aria-hidden="true">Leave this empty<input name="company" tabindex="-1" autocomplete="off"></label>
+        <p class="consent" data-consent></p>
+        <p class="error" role="alert" hidden></p>
+        <button class="btn btn-gilt" type="submit">Send to Donnie</button>
+      </fieldset>
+
+      <div class="q done" data-key="done" tabindex="-1">
+        <h3>Got it<span data-firstname></span>.</h3>
+        <p>Donnie will reach out within one business day. Most first-time buyers put down far less than 20%, and there are more than 2,700 down payment assistance programs across the country. He'll check which ones fit where you're buying.</p>
+        <button class="btn btn-ink" type="button" data-close>Done</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="assets/quiz.js"></script>
+</body>
+</html>

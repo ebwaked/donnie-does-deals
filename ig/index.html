@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex"><title>Donnie Does Deals</title>
+<script>
+(function () {
+  var q = new URLSearchParams(location.search), out = new URLSearchParams();
+  out.set("utm_source", "instagram"); out.set("utm_medium", "social");
+  if (q.get("c")) out.set("utm_content", q.get("c"));
+  if (q.get("campaign")) out.set("utm_campaign", q.get("campaign"));
+  ["fbclid", "ttclid"].forEach(function (k) { if (q.get(k)) out.set(k, q.get(k)); });
+  location.replace("/?" + out.toString());
+})();
+</script>
+<noscript><meta http-equiv="refresh" content="0; url=/?utm_source=instagram&amp;utm_medium=social"></noscript>
+</head><body><a href="/?utm_source=instagram&amp;utm_medium=social">Continue to Donnie Does Deals</a></body></html>

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy | Donnie Does Deals</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,700;1,6..96,500&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="config.js"></script>
+  <style>
+    .legal { padding: 3rem 0 4rem; }
+    .legal h1 { font-size: clamp(2rem, 7vw, 2.75rem); line-height: 1.1; margin: 1.5rem 0 1.5rem; }
+    .legal h2 { font-size: 1.35rem; margin: 2rem 0 0.5rem; }
+    .legal p, .legal li { max-width: 40rem; color: var(--ink-soft); }
+    .legal p + p { margin-top: 0.75rem; }
+    .legal .mark { color: var(--gilt-shade); }
+    .legal .mark-name { text-shadow: none; }
+  </style>
+</head>
+<body>
+  <main class="shirt legal">
+    <div class="wrap">
+      <a class="mark" href="/"><span class="mark-name">Donnie</span><span class="mark-tag">does deals</span></a>
+      <h1>Privacy</h1>
+      <p>Last updated October 21, 2026.</p>
+
+      <h2>What we collect</h2>
+      <p>When you take the first-time buyer check, we collect the answers you give (the state you're buying in, your timeline, rough credit and savings ranges, and whether you've owned a home recently), your name, phone number and email, and how you found this page (for example, which video or ad you came from).</p>
+
+      <h2>Why</h2>
+      <p>So Donnie can contact you about buying a home and financing it, and so we can tell which of our videos and ads are useful to people.</p>
+
+      <h2>Who sees it</h2>
+      <p>Donnie and the small team that runs this page. We don't sell your information. This site uses Meta and TikTok measurement tools, which may set cookies to tell us whether our ads worked.</p>
+
+      <h2>Your choices</h2>
+      <p>You can ask us to stop contacting you or to delete your information at any time by emailing <a data-contact href="#">Donnie</a>.</p>
+    </div>
+  </main>
+  <script>
+    (function () {
+      var c = (window.DDD_CONFIG || {}).contactEmail;
+      document.querySelectorAll("[data-contact]").forEach(function (a) { if (c) { a.href = "mailto:" + c; a.textContent = c; } });
+    })();
+  </script>
+</body>
+</html>
