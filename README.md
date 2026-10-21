@@ -1,5 +1,7 @@
 # Donnie Does Deals — site
 
+Live at **https://donniedeals.com** (once Cloudflare is connected). Instagram: @donniedoesdeals.
+
 Static landing page + 60-second first-time buyer check. No build step.
 
 ## Files
@@ -16,7 +18,7 @@ Static landing page + 60-second first-time buyer check. No build step.
 1. Cloudflare dashboard → Workers & Pages → Create → connect GitHub → pick `ebwaked/donnie-does-deals`.
 2. Framework preset: none. Build command: empty. Output directory: `/`.
 3. Every push to `main` redeploys.
-4. Once the domain is bought at Cloudflare Registrar: project → Custom domains → add it (DNS is set automatically).
+4. Project → Custom domains → add `donniedeals.com` (and `www.donniedeals.com`). DNS is set automatically because the domain is on Cloudflare.
 
 ## Lead capture (one-time, ~5 minutes)
 1. Open the Google Sheet **"Donnie Does Deals — Leads"** (Rabbitt Engineering/clients/donnie-does-deals in Drive).
