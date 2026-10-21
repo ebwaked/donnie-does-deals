@@ -10,6 +10,13 @@ Check items off in place and commit, so the history shows who closed what and wh
 - [ ] TikTok: when the account is ready, connect it on the DDD row in Upload-Post (API profile name `default`).
 - [ ] Final consent wording for the quiz. Placeholder text is live in `site/config.js`.
 
+## PZ
+- [ ] Tell Donnie leads are live and what the email looks like (below). Decide who answers Instagram comments/DMs (default: PZ).
+
+## Donnie
+- [ ] Add the sender "Donnie Does Deals" (ebwaked87@gmail.com) to contacts so lead emails don't land in spam.
+- [ ] Call **[HOT]** leads the same day. Hitting reply on a lead email goes straight to the lead.
+
 ## Claude
 - [ ] On "post it": schedule pilot 1 v2 to Instagram via Upload-Post (Reel, shared to feed, caption below), confirm the job, log it here.
 - [ ] Build pilots 2 and 3 ("Money Nobody Asks For", "The New Car"). About 20–30 credits each.
