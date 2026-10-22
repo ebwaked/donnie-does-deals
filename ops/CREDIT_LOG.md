@@ -5,8 +5,8 @@ Source of truth: Higgsfield's own transaction history (`transactions` in the Hig
 session or scheduled run that spends credits, and commit it.
 
 **How the credits are split:** Higgsfield has one credit balance per account. There are no per-project budgets. This account
-is shared with MindShark, so the split is by date: the 500-credit package bought 2026-10-21 03:35 UTC is the DDD budget, and
-every spend since then is DDD's. MindShark had 9.4 credits left before that purchase.
+is shared with Eddie's other projects. The 500-credit package bought 2026-10-21 03:35 UTC is the DDD budget; 9.4 credits were
+left over from before it. DDD spends are identified by job ID in the ledger below; everything else is listed separately.
 
 ## Summary
 
@@ -46,7 +46,7 @@ either top up, or count the real remaining DDD budget as the account balance.
 | 11:48 | Wan 2.7 9s 720p | −13.5 | Pilot 2 diner lip-sync clip | `de93e098` |
 | | | **−114.8** | **Total spent by DDD** | |
 
-Non-DDD spends in the same window (excluded above): Text to 3D ×20 (−102.5), GPT Image ×17 (−25.5), Tripo 3D (−9.0).
+Non-DDD spends in the same window (excluded above): Text to 3D ×19 (−102.5), GPT Image ×17 (−25.5), Tripo 3D (−9.0).
 
 ## By deliverable
 
