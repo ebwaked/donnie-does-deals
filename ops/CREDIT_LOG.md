@@ -13,9 +13,14 @@ every spend since then is DDD's. MindShark had 9.4 credits left before that purc
 | | Credits |
 |---|---|
 | DDD budget (credit package, 2026-10-21) | 500.0 |
-| Spent by DDD to date | 95.1 |
-| **DDD remaining** | **404.9** |
-| Account balance (DDD remaining + 9.4 MindShark leftover) | 414.3 |
+| Spent by DDD to date | 114.8 |
+| **DDD remaining on paper** | **385.2** |
+| Spent by other projects since the package (3D models, images; not DDD) | 137.0 |
+| **Actual account balance (2026-10-22)** | **257.6** |
+
+Other projects have spent 137 credits from the shared pool since the DDD package landed, against only 9.4 that was
+left over from before. So about 127.6 of the DDD package has gone to non-DDD work. The account can't enforce a split;
+either top up, or count the real remaining DDD budget as the account balance.
 
 ## Ledger
 
@@ -36,7 +41,12 @@ every spend since then is DDD's. MindShark had 9.4 credits left before that purc
 | 05:31 | Nano Banana 2 ×2 | −4.0 | Therapist in office A, brick behind | `eb614158`, `9f8340e1` |
 | 05:36 | Wan 2.7 2s ×2 | 0.0 | Therapist lip-sync, failed (−6.0 charged, +6.0 refunded) | `fe60deba`, `d3be589f` |
 | 05:38–05:39 | Wan 2.7 3s ×2 | −9.0 | Therapist lip-sync reverse shots | `5c298908`, `3ea6623d` |
-| | | **−95.1** | **Total spent** | |
+| 2026-10-22 11:44 | Seed Audio | −3.2 | Pilot 2 VO (Donnie) | `98e0d0bd` |
+| 11:45 | Nano Banana 2 ×2 | −3.0 | Pilot 2 diner keyframes | `79e0fe36`, `7ce053ac` (used) |
+| 11:48 | Wan 2.7 9s 720p | −13.5 | Pilot 2 diner lip-sync clip | `de93e098` |
+| | | **−114.8** | **Total spent by DDD** | |
+
+Non-DDD spends in the same window (excluded above): Text to 3D ×20 (−102.5), GPT Image ×17 (−25.5), Tripo 3D (−9.0).
 
 ## By deliverable
 
@@ -47,7 +57,8 @@ every spend since then is DDD's. MindShark had 9.4 credits left before that purc
 | Pilot 1 VO (Donnie take + sign-off, reused in v2) | 4.1 |
 | Pilot 1 v1 (old office, OTS stills; superseded) | 22.0 |
 | Pilot 1 v2 (Donnie clip + 2 lip-sync shots) | 27.0 |
-| **Total** | **95.1** |
+| Pilot 2 "Money Nobody Asks For" (VO + keyframes + 9s clip) | 19.7 |
+| **Total** | **114.8** |
 
 Pilot 1 v2's video generations came to 27 credits. Later episodes reuse the cast, voices and set, so expect about
 20–30 credits each.
