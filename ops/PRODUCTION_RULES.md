@@ -40,3 +40,13 @@ Pilot 3's punchline ("Car keys after.") ended 0.04s before the cut to the endcar
 - **Never use MindShark's beds** (`bed_swagger` etc.). Donnie gets his own sound.
 - Until a Donnie track is chosen, use the original bed from `ops/tools/make_bed.py` (v2, softened per Eddie 2026-10-28: SOFT=0.6, mix with lowpass 4.5 kHz)
   or no music. A licensed track Eddie picks replaces it when there is one.
+
+## Voice takes (added 2026-10-28)
+Seed Audio stops at the end of the `[00:00-00:XX]` window even mid-word. Ep. 2's first take cut off "eight hundred".
+- Give the window at least 30% more time than the read needs.
+- Gate: `ops/tools/vocheck.py` on every take. Fails if the file is still loud at the end or the last word runs to
+  within 0.15s of the end. Re-record on fail.
+
+## Framing note (2026-10-28)
+wan2_7 sometimes returns a wider shot than the keyframe. Crop per shot in the edit, and check the reaction beat at the
+end stays inside the crop (Ep. 2's head-back reaction needed a looser crop).

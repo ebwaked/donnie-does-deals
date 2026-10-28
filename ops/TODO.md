@@ -23,6 +23,7 @@ Check items off in place and commit, so the history shows who closed what and wh
 - [ ] Keep `ops/CREDIT_LOG.md` current from Higgsfield's transaction history after every session that spends credits.
 
 ## Done
+- [x] 2026-10-28 Therapy Ep. 2 "Perfect Credit" scheduled for Thu 2026-10-29 5:00 AM ET (Upload-Post job `663726e5f04c420ba93b1d89599d9915`).
 - [x] 2026-10-28 Pilot 3 "The New Car" posted: https://www.instagram.com/reel/DfDa2zxCCXQ/ (new lip-sync rules applied).
 - [x] 2026-10-23 Pilot 2 posted: https://www.instagram.com/reel/De1L7LkCPQ7/
 - [x] 2026-10-22 Pilot 1 v2 posted to Instagram: https://www.instagram.com/reel/Dey5yk6CEr5/ (AI-generated label on).
