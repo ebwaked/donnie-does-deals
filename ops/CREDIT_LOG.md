@@ -13,10 +13,11 @@ left over from before it. DDD spends are identified by job ID in the ledger belo
 | | Credits |
 |---|---|
 | DDD budget (credit package, 2026-10-21) | 500.0 |
-| Spent by DDD to date | 114.8 |
-| **DDD remaining on paper** | **385.2** |
+| Spent by DDD to date | 178.6 |
+| **DDD remaining on paper** | **321.4** |
 | Spent by other projects since the package (3D models, images; not DDD) | 137.0 |
-| **Actual account balance (2026-10-22)** | **257.6** |
+| Plan credits granted 2026-10-24 (account-wide, not DDD-specific) | +1000.0 |
+| **Actual account balance (2026-10-28)** | **1109.8** |
 
 Other projects have spent 137 credits from the shared pool since the DDD package landed, against only 9.4 that was
 left over from before. So about 127.6 of the DDD package has gone to non-DDD work. The account can't enforce a split;
@@ -44,9 +45,13 @@ either top up, or count the real remaining DDD budget as the account balance.
 | 2026-10-22 11:44 | Seed Audio | −3.2 | Pilot 2 VO (Donnie) | `98e0d0bd` |
 | 11:45 | Nano Banana 2 ×2 | −3.0 | Pilot 2 diner keyframes | `79e0fe36`, `7ce053ac` (used) |
 | 11:48 | Wan 2.7 9s 720p | −13.5 | Pilot 2 diner lip-sync clip | `de93e098` |
-| | | **−114.8** | **Total spent by DDD** | |
+| 2026-10-28 21:28 | Seed Audio | −3.3 | Pilot 3 VO | `33b4fb16` |
+| 21:28 | Nano Banana 2 ×2 | −3.0 | Pilot 3 desk keyframes (MCU, 3/4 CU) | `74ff3183` (used), `75124de8` |
+| 21:31 | Wan 2.7 1080p 5s+5s+3s | −32.5 | Pilot 3 per-line lip-sync clips | `bd0b1d96`, `1ea7a16b`, `3603e699` |
+| 21:33 | Wan 2.7 1080p 5s ×2 | −25.0 | Line 2 re-takes, frontal (one used) | `a443317f` (used), `50fd54e6` |
+| | | **−178.6** | **Total spent by DDD** | |
 
-Non-DDD spends in the same window (excluded above): Text to 3D ×19 (−102.5), GPT Image ×17 (−25.5), Tripo 3D (−9.0).
+Non-DDD spends in the same window (excluded above): Text to 3D ×19 (−102.5), GPT Image ×17 (−25.5), Tripo 3D (−9.0), Seedance 2.5 ×2 on 2026-10-27 (−84.0).
 
 ## By deliverable
 
@@ -58,7 +63,8 @@ Non-DDD spends in the same window (excluded above): Text to 3D ×19 (−102.5), 
 | Pilot 1 v1 (old office, OTS stills; superseded) | 22.0 |
 | Pilot 1 v2 (Donnie clip + 2 lip-sync shots) | 27.0 |
 | Pilot 2 "Money Nobody Asks For" (VO + keyframes + 9s clip) | 19.7 |
-| **Total** | **114.8** |
+| Pilot 3 "The New Car" (1080p per-line clips + 2 re-takes) | 63.8 |
+| **Total** | **178.6** |
 
 Pilot 1 v2's video generations came to 27 credits. Later episodes reuse the cast, voices and set, so expect about
 20–30 credits each.

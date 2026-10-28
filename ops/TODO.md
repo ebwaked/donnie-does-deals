@@ -18,11 +18,13 @@ Check items off in place and commit, so the history shows who closed what and wh
 - [ ] Call **[HOT]** leads the same day. Hitting reply on a lead email goes straight to the lead.
 
 ## Claude
-- [ ] Build pilot 3 ("The New Car") for the next slot. About 20 credits.
+- [ ] Next episodes follow `ops/PRODUCTION_RULES.md` (tight framing, one line per clip, 1080p, sync gate). Expect ~35–45 credits each.
 - [ ] After pilot 1 posts: set up the weekly scheduled run. It builds the next episodes and sends them for approval; nothing posts without "post it".
 - [ ] Keep `ops/CREDIT_LOG.md` current from Higgsfield's transaction history after every session that spends credits.
 
 ## Done
+- [x] 2026-10-28 Pilot 3 "The New Car" posted: https://www.instagram.com/reel/DfDa2zxCCXQ/ (new lip-sync rules applied).
+- [x] 2026-10-23 Pilot 2 posted: https://www.instagram.com/reel/De1L7LkCPQ7/
 - [x] 2026-10-22 Pilot 1 v2 posted to Instagram: https://www.instagram.com/reel/Dey5yk6CEr5/ (AI-generated label on).
 - [x] 2026-10-22 Pilot 2 "Money Nobody Asks For" built and scheduled for Fri 2026-10-23 5:00 AM ET (Upload-Post job `f8a26fa170bb48dc80b716b0b2684eaa`).
 - [x] 2026-10-21 Lead capture live: quiz → Apps Script "DDD Leads" → Leads sheet + email to Donnie, PZ, Eddie. Tested from the live site.
