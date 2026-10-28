@@ -38,5 +38,5 @@ Pilot 3's punchline ("Car keys after.") ended 0.04s before the cut to the endcar
 
 ## Music (added 2026-10-28)
 - **Never use MindShark's beds** (`bed_swagger` etc.). Donnie gets his own sound.
-- Until a Donnie track is chosen, use the original bed from `ops/tools/make_bed.py` (mandolin, upright bass, brushes)
+- Until a Donnie track is chosen, use the original bed from `ops/tools/make_bed.py` (v2, softened per Eddie 2026-10-28: SOFT=0.6, mix with lowpass 4.5 kHz)
   or no music. A licensed track Eddie picks replaces it when there is one.
