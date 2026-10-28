@@ -15,13 +15,12 @@ left over from before it. DDD spends are identified by job ID in the ledger belo
 | DDD budget (credit package, 2026-10-21) | 500.0 |
 | Spent by DDD to date | 178.6 |
 | **DDD remaining on paper** | **321.4** |
-| Spent by other projects since the package (3D models, images; not DDD) | 137.0 |
+| Spent by other projects since the package (3D, images, Seedance; not DDD) | 221.0 |
 | Plan credits granted 2026-10-24 (account-wide, not DDD-specific) | +1000.0 |
 | **Actual account balance (2026-10-28)** | **1109.8** |
 
-Other projects have spent 137 credits from the shared pool since the DDD package landed, against only 9.4 that was
-left over from before. So about 127.6 of the DDD package has gone to non-DDD work. The account can't enforce a split;
-either top up, or count the real remaining DDD budget as the account balance.
+Other projects have spent 221 credits from the shared pool since the DDD package landed. The plan's 1,000-credit grant
+on 2026-10-24 covers that for now, so the pool isn't the constraint; the DDD figure on paper (321.4) is what to track.
 
 ## Ledger
 
@@ -66,8 +65,8 @@ Non-DDD spends in the same window (excluded above): Text to 3D ×19 (−102.5), 
 | Pilot 3 "The New Car" (1080p per-line clips + 2 re-takes) | 63.8 |
 | **Total** | **178.6** |
 
-Pilot 1 v2's video generations came to 27 credits. Later episodes reuse the cast, voices and set, so expect about
-20–30 credits each.
+Under the 2026-10-28 production rules (1080p, one clip per line, re-takes when sync is off), expect about 35–45
+credits per episode, up from ~20–30.
 
 Correction: the earlier Drive copy of this log said about 70 credits. It undercounted the voice auditions and images. The
 figures above come straight from Higgsfield's transaction history.
