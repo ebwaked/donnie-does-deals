@@ -30,3 +30,13 @@ the take is long, or the prompt asks for prop business (slapping folders, pullin
 
 ## Reference build
 `ops/tools/build_fuhged-newcar.sh` (pilot 3): three per-line clips, punch-in crops, hook, captions, bed, endcard.
+
+## Ending (added 2026-10-28)
+Pilot 3's punchline ("Car keys after.") ended 0.04s before the cut to the endcard, so it felt clipped. From now on:
+- Hold **at least 0.7s** on Donnie after the last word of the punchline (let the reaction land), then cut to the endcard.
+- QC gate: last word's end time (from the ASR word timings) must be ≥0.7s before the endcard cut, or the build fails.
+
+## Music (added 2026-10-28)
+- **Never use MindShark's beds** (`bed_swagger` etc.). Donnie gets his own sound.
+- Until a Donnie track is chosen, use the original bed from `ops/tools/make_bed.py` (mandolin, upright bass, brushes)
+  or no music. A licensed track Eddie picks replaces it when there is one.
