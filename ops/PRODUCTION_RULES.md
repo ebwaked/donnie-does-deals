@@ -73,7 +73,29 @@ options list (no new tools, no new spend):
    talking face: the therapist listening, an over-the-shoulder from behind Donnie, a type card, or an insert.
    Keep **one** on-camera setup line and **the punchline** on his face; everything else is a reaction shot or VO.
    Target 2 Donnie talking clips per episode (down from 3–4), which also brings an episode to roughly 25–30 credits.
-3. **Bake in the known lag.** Every Donnie talking shot gets a **−0.3s video delay by default** (pass `O=-0.3` in the
-   build script) before checking, since every shot so far has had the mouth 0.25–0.4s early. Only deviate when the
-   strip shows an exception. Donnie's VO is also slowed: rubberband `tempo=0.98` instead of `1.05` (pitch stays
-   `1.0595`), about 7% slower than before. Fewer syllables per second tracks better and reads as in sync.
+3. ~~Bake in a −0.3s video delay and slow the VO 7%.~~ **Withdrawn the same day.** Ep. 3 v2 was built this way,
+   the strips looked aligned, and Eddie judged it worse than v1. Conclusion: the strip check cannot be trusted to set
+   offsets, and blind offsets do harm. See v3.
+
+## Lip sync v3 (added 2026-10-30, after Ep. 3 v2)
+What we know after six episodes: wan2_7's output is as synced as it gets; nothing done to it in the edit has made it
+better, and the numeric and strip checks have both passed clips Eddie rejected. So stop trying to fix sync after the
+fact and reduce how much of Donnie's mouth the viewer sees.
+
+1. **No offsets.** Donnie's clips are cut from 0.3s (the audio pad) with `O=0`. Never shift video against audio.
+   VO stays at the v1 recipe (rubberband `pitch=1.0595 tempo=1.05`), which is the baseline Eddie accepted.
+2. **Change the angle.** Donnie's talking keyframes are no longer frontal. Use, in order of preference:
+   - **Over-the-shoulder from behind the therapist**: her shoulder and hair in the near foreground, Donnie
+     mid-frame, three-quarter angle. The standard therapy-scene shot, and it hides a lot of the mouth.
+   - **Three-quarter profile** looking off-axis at her, not into the lens.
+   - **Profile or near-profile** for short lines.
+   Frontal, into-the-lens is only for the punchline, and only when Eddie has approved that clip.
+   Generate two angled Donnie keyframes at the start of the next episode (~4 credits) and keep them as the new
+   standard set alongside the sofa frontals.
+3. **A/B a second model, cheaply.** MiniMax H3 accepts a start image + audio reference at 2K for **10 credits per
+   5s** (wan2_7 1080p is 12.5). On the next episode, generate one Donnie line on both and send Eddie both clips
+   side by side; he picks. If H3 wins, it becomes the default. Seedance 2.0 is 22.5/5s and Seedance 2.5 ~16/s; not
+   worth it unless H3 also fails. Grok 1.5 can't take image + audio.
+4. **Still in force from v2:** Eddie approves every cut before it's scheduled; most of Donnie's lines play over
+   reaction shots, inserts or type cards; one setup line and the punchline on his face.
+5. **Don't spend on a clip Eddie has rejected twice.** Post the better of the two and move on.

@@ -77,8 +77,8 @@ Non-DDD spends in the same window (excluded above): Text to 3D ×19 (−102.5), 
 | Pilot 3 "The New Car" (1080p per-line clips + 2 re-takes) | 63.8 |
 | Therapy Ep. 2 "Perfect Credit" (5 shots + re-takes) | 76.4 |
 | Open House Weekend (4 shots + insert + re-takes) | 70.4 |
-| Therapy Ep. 3 "Closing Costs" v1 (5 shots + 1 re-take; pulled) | 63.8 |
-| Therapy Ep. 3 v2 (2 Donnie shots + listening shot) | 35.0 |
+| Therapy Ep. 3 "Closing Costs" v1 (5 shots + 1 re-take; posted) | 63.8 |
+| Therapy Ep. 3 v2 (2 Donnie shots + listening shot; shelved, judged worse) | 35.0 |
 | **Total** | **424.2** |
 
 Under the 2026-10-28 production rules (1080p, one clip per line, re-takes when sync is off), expect about 35–45

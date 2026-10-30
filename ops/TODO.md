@@ -18,13 +18,12 @@ Check items off in place and commit, so the history shows who closed what and wh
 - [ ] Call **[HOT]** leads the same day. Hitting reply on a lead email goes straight to the lead.
 
 ## Claude
-- [ ] Next episodes follow `ops/PRODUCTION_RULES.md` incl. **Lip sync v2** (Eddie approves every cut before it's scheduled; Donnie's lines mostly over reaction shots; −0.3s default delay and slower VO). Expect ~25–30 credits each.
-- [ ] Ep. 3 "Closing Costs" v2 built under lip-sync v2 and sent to Eddie 2026-10-30. **Not scheduled** until he says "post". Target slot: Sun 11/01 5 AM ET.
+- [ ] Next episodes follow `ops/PRODUCTION_RULES.md` **Lip sync v3**: Eddie approves every cut before it's scheduled; Donnie's lines mostly over reaction shots; angled keyframes (OTS / three-quarter) instead of frontal; no video offsets; A/B one line on MiniMax H3 vs Wan 2.7 and let Eddie pick. Expect ~30 credits each.
 - [ ] After pilot 1 posts: set up the weekly scheduled run. It builds the next episodes and sends them for approval; nothing posts without "post it".
 - [ ] Keep `ops/CREDIT_LOG.md` current from Higgsfield's transaction history after every session that spends credits.
 
 ## Done
-- [x] 2026-10-30 Therapy Ep. 3 v1 pulled from the schedule (Upload-Post job `c27a0dce…` cancelled) after Eddie flagged the lip sync; v2 rebuilt.
+- [x] 2026-10-30 Therapy Ep. 3 "Closing Costs" **v1** re-scheduled for Sun 2026-11-01 5:00 AM ET (Upload-Post job `2bc82d0da7a44b36a275c3257c4503df`). v2 (lip-sync v2 rules) was judged worse by Eddie and shelved; v1 job `c27a0dce…` had been cancelled and was re-posted.
 - [x] 2026-10-30 "Open House Weekend" scheduled for Sat 2026-10-31 5:00 AM ET (Upload-Post job `6680cb69f7a14ccfb748e4c4d5cbe4fd`).
 - [x] 2026-10-28 Therapy Ep. 2 "Perfect Credit" scheduled for Thu 2026-10-29 5:00 AM ET (Upload-Post job `663726e5f04c420ba93b1d89599d9915`).
 - [x] 2026-10-28 Pilot 3 "The New Car" posted: https://www.instagram.com/reel/DfDa2zxCCXQ/ (new lip-sync rules applied).
