@@ -50,3 +50,14 @@ Seed Audio stops at the end of the `[00:00-00:XX]` window even mid-word. Ep. 2's
 ## Framing note (2026-10-28)
 wan2_7 sometimes returns a wider shot than the keyframe. Crop per shot in the edit, and check the reaction beat at the
 end stays inside the crop (Ep. 2's head-back reaction needed a looser crop).
+
+## Lip-sync check by eye (added 2026-10-30)
+The numeric score in `synccheck.py` is unreliable on Donnie (beard and mustache confuse the face tracker). Use
+`ops/tools/mouthstrip.py <clip> <out.png>`: mouth crops every 0.1s with the voice level under each frame. Read it:
+the mouth should open when the red bar starts, not before.
+- Found 2026-10-30: wan2_7 often opens Donnie's mouth **0.25–0.4s before the sound** (anticipation), especially on the
+  first word after a pause. Fix per shot in the edit by delaying the video (negative offset in the build script,
+  e.g. `O2=-0.4`), re-check with the strip, or re-take if it's worse than that.
+- The therapist clips track well; still strip-check them.
+- Tried Grok Video 1.5 as an alternative: it can't take a start frame together with audio, and the test job failed.
+  Seedance 2.5 with audio costs ~16 credits/s (vs 2.5 for wan). Staying on wan2_7 + strip check + offsets.

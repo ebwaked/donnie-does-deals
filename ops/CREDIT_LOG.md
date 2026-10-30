@@ -13,8 +13,8 @@ left over from before it. DDD spends are identified by job ID in the ledger belo
 | | Credits |
 |---|---|
 | DDD budget (credit package, 2026-10-21) | 500.0 |
-| Spent by DDD to date | 255.0 |
-| **DDD remaining on paper** | **245.0** |
+| Spent by DDD to date | 325.4 |
+| **DDD remaining on paper** | **174.6** |
 | Spent by other projects since the package (3D, images, Seedance; not DDD) | 221.0 |
 | Plan credits granted 2026-10-24 (account-wide, not DDD-specific) | +1000.0 |
 | **Actual account balance (2026-10-28)** | **1109.8** |
@@ -52,7 +52,11 @@ on 2026-10-24 covers that for now, so the pool isn't the constraint; the DDD fig
 | 22:12 | Nano Banana 2 ×2 | −3.0 | Donnie on the sofa, MCU + CU | `303cbfb3`, `7a8d200c` |
 | 22:16–22:17 | Wan 2.7 ×5 | −41.5 | Per-line clips: Donnie 4s/5s/4s at 1080p, therapist 3s ×2 at 720p | `eb11b9ad`, `b5a002fd` (used), `41d427a1` (used), `faea022e` (used), `1584a202` (used) |
 | 22:19 | Wan 2.7 1080p 4s ×2 | −20.0 | Donnie line 1 re-takes, tighter framing | `18d77431` (used), `398bd477` |
-| | | **−255.0** | **Total spent by DDD** | |
+| 2026-10-30 18:13 | Seed Audio + Nano Banana 2 ×3 | −7.9 | Open House Weekend: VO, 2 kitchen keyframes, cookie insert | `5b4a9dc3`, `1fd4eaec`, `2dea5ed4`, `c396f666` |
+| 18:16 | Wan 2.7 1080p ×4 | −42.5 | Per-line clips (4s/4s/5s/4s) | `be10f9bc`, `67ca1475` (used), `bf7ed08c` (used), `b31b9f16` (used) |
+| 18:18 | Wan 2.7 1080p 4s ×2 | −20.0 | Line 1 re-takes (mouth was early) | `1588fdbd` (used), `6a9a4190` |
+| 18:21 | Grok Video 1.5 | 0.0 | Lip-sync A/B test, failed and refunded | `c9bab67e` |
+| | | **−325.4** | **Total spent by DDD** | |
 
 Non-DDD spends in the same window (excluded above): Text to 3D ×19 (−102.5), GPT Image ×17 (−25.5), Tripo 3D (−9.0), Seedance 2.5 ×2 on 2026-10-27 (−84.0).
 
@@ -68,7 +72,8 @@ Non-DDD spends in the same window (excluded above): Text to 3D ×19 (−102.5), 
 | Pilot 2 "Money Nobody Asks For" (VO + keyframes + 9s clip) | 19.7 |
 | Pilot 3 "The New Car" (1080p per-line clips + 2 re-takes) | 63.8 |
 | Therapy Ep. 2 "Perfect Credit" (5 shots + re-takes) | 76.4 |
-| **Total** | **255.0** |
+| Open House Weekend (4 shots + insert + re-takes) | 70.4 |
+| **Total** | **325.4** |
 
 Under the 2026-10-28 production rules (1080p, one clip per line, re-takes when sync is off), expect about 35–45
 credits per episode, up from ~20–30.

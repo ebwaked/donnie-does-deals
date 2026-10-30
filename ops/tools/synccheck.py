@@ -27,4 +27,12 @@ for p in sys.argv[1:]:
     m=m[a0:a1]; e=e[a0:a1]; mz=z(m); ez=z(np.log(e))
     lags=range(-12,13); cs=[np.mean(mz[max(0,k):len(mz)+min(0,k)]*ez[max(0,-k):len(ez)-max(0,k)]) for k in lags]
     best=int(np.argmax(cs)); 
+    # onset check: after each pause, does the mouth start opening when the sound starts?
+    le2=np.log(e); thr=le2.max()-3.0; on=[]
+    for i in range(6,len(le2)):
+        if le2[i]>thr and np.all(le2[i-6:i]<=thr):
+            w0,w1=max(1,i-15),min(len(m)-1,i+10); d=np.diff(np.nan_to_num(m[w0:w1+1],nan=np.nanmean(m)))
+            on.append((i-(w0+1+int(np.argmax(d))))/fps)
+    lead=np.median(on) if on else float('nan')
+    print(f"   onsets={len(on)} mouth leads sound by median {lead*1000:+.0f}ms (positive = mouth early)")
     print(f"{os.path.basename(p)}: face {det:.0%}, corr@0={cs[12]:.2f}, best lag={list(lags)[best]/fps*1000:+.0f}ms corr={cs[best]:.2f}, mouth range={np.nanpercentile(m,95)-np.nanpercentile(m,5):.3f}")
