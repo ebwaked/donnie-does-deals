@@ -61,3 +61,19 @@ the mouth should open when the red bar starts, not before.
 - The therapist clips track well; still strip-check them.
 - Tried Grok Video 1.5 as an alternative: it can't take a start frame together with audio, and the test job failed.
   Seedance 2.5 with audio costs ~16 credits/s (vs 2.5 for wan). Staying on wan2_7 + strip check + offsets.
+
+## Lip sync v2 (added 2026-10-30, after Ep. 3)
+Eddie flagged Donnie's sync in Ep. 3 after it passed the strip check. Three standing changes, chosen by Eddie from the
+options list (no new tools, no new spend):
+
+1. **Eddie is the gate.** A finished cut is sent to Eddie and is **not scheduled** until he replies "post" (or
+   "redo line N"). No reply by the posting cutoff means it holds; it never posts by default. This replaces the
+   strip check as the final gate; the strip stays as a first filter so obvious misses are re-taken before he sees it.
+2. **Write around Donnie's mouth.** Therapy episodes carry most of Donnie's lines over something other than his
+   talking face: the therapist listening, an over-the-shoulder from behind Donnie, a type card, or an insert.
+   Keep **one** on-camera setup line and **the punchline** on his face; everything else is a reaction shot or VO.
+   Target 2 Donnie talking clips per episode (down from 3–4), which also brings an episode to roughly 25–30 credits.
+3. **Bake in the known lag.** Every Donnie talking shot gets a **−0.3s video delay by default** (pass `O=-0.3` in the
+   build script) before checking, since every shot so far has had the mouth 0.25–0.4s early. Only deviate when the
+   strip shows an exception. Donnie's VO is also slowed: rubberband `tempo=0.98` instead of `1.05` (pitch stays
+   `1.0595`), about 7% slower than before. Fewer syllables per second tracks better and reads as in sync.

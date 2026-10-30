@@ -18,7 +18,8 @@ Check items off in place and commit, so the history shows who closed what and wh
 - [ ] Call **[HOT]** leads the same day. Hitting reply on a lead email goes straight to the lead.
 
 ## Claude
-- [ ] Next episodes follow `ops/PRODUCTION_RULES.md` (tight framing, one line per clip, 1080p, sync gate). Expect ~35–45 credits each.
+- [ ] Next episodes follow `ops/PRODUCTION_RULES.md` incl. **Lip sync v2** (Eddie approves every cut before it's scheduled; Donnie's lines mostly over reaction shots; −0.3s default delay and slower VO). Expect ~25–30 credits each.
+- [ ] Ep. 3 "Closing Costs" is still scheduled for Sun 11/01 5 AM with the sync Eddie flagged. Waiting on Eddie: hold and redo Donnie's lines under v2, or let it run.
 - [ ] After pilot 1 posts: set up the weekly scheduled run. It builds the next episodes and sends them for approval; nothing posts without "post it".
 - [ ] Keep `ops/CREDIT_LOG.md` current from Higgsfield's transaction history after every session that spends credits.
 
