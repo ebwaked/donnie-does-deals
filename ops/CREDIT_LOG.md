@@ -13,8 +13,8 @@ left over from before it. DDD spends are identified by job ID in the ledger belo
 | | Credits |
 |---|---|
 | DDD budget (credit package, 2026-10-21) | 500.0 |
-| Spent by DDD to date | 325.4 |
-| **DDD remaining on paper** | **174.6** |
+| Spent by DDD to date | 389.2 |
+| **DDD remaining on paper** | **110.8** |
 | Spent by other projects since the package (3D, images, Seedance; not DDD) | 221.0 |
 | Plan credits granted 2026-10-24 (account-wide, not DDD-specific) | +1000.0 |
 | **Actual account balance (2026-10-28)** | **1109.8** |
@@ -56,7 +56,10 @@ on 2026-10-24 covers that for now, so the pool isn't the constraint; the DDD fig
 | 18:16 | Wan 2.7 1080p ×4 | −42.5 | Per-line clips (4s/4s/5s/4s) | `be10f9bc`, `67ca1475` (used), `bf7ed08c` (used), `b31b9f16` (used) |
 | 18:18 | Wan 2.7 1080p 4s ×2 | −20.0 | Line 1 re-takes (mouth was early) | `1588fdbd` (used), `6a9a4190` |
 | 18:21 | Grok Video 1.5 | 0.0 | Lip-sync A/B test, failed and refunded | `c9bab67e` |
-| | | **−325.4** | **Total spent by DDD** | |
+| 2026-10-30 19:19–19:21 | Seed Audio ×4 | −7.3 | Therapy Ep. 3 VO: Donnie + 2 therapist lines + 1 re-record (cut-off) | `922df8cf`, `e8e17ecd`, `91baf63c`, `9cc8eb80` (used) |
+| 19:22 | Wan 2.7 ×4 | −44.5 | Donnie 6s/5s/5s at 1080p, therapist 3s at 720p (reused sofa keyframes) | `d58f2123`, `c51fec07`, `0ef62586`, `6681cb06` |
+| 19:23–19:32 | Wan 2.7 720p 4s ×2 | −12.0 | Therapist line 2 (second take after I clipped "you" in the edit) | `b50b0883`, `db8b1b94` (used) |
+| | | **−389.2** | **Total spent by DDD** | |
 
 Non-DDD spends in the same window (excluded above): Text to 3D ×19 (−102.5), GPT Image ×17 (−25.5), Tripo 3D (−9.0), Seedance 2.5 ×2 on 2026-10-27 (−84.0).
 
@@ -73,7 +76,8 @@ Non-DDD spends in the same window (excluded above): Text to 3D ×19 (−102.5), 
 | Pilot 3 "The New Car" (1080p per-line clips + 2 re-takes) | 63.8 |
 | Therapy Ep. 2 "Perfect Credit" (5 shots + re-takes) | 76.4 |
 | Open House Weekend (4 shots + insert + re-takes) | 70.4 |
-| **Total** | **325.4** |
+| Therapy Ep. 3 "Closing Costs" (5 shots + 1 re-take) | 63.8 |
+| **Total** | **389.2** |
 
 Under the 2026-10-28 production rules (1080p, one clip per line, re-takes when sync is off), expect about 35–45
 credits per episode, up from ~20–30.
