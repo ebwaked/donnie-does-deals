@@ -96,6 +96,8 @@ fact and reduce how much of Donnie's mouth the viewer sees.
    5s** (wan2_7 1080p is 12.5). On the next episode, generate one Donnie line on both and send Eddie both clips
    side by side; he picks. If H3 wins, it becomes the default. Seedance 2.0 is 22.5/5s and Seedance 2.5 ~16/s; not
    worth it unless H3 also fails. Grok 1.5 can't take image + audio.
+   Note 2026-11-03: H3 wants the face as `image_references` (not `start_image`) alongside `audio_references`; the first
+   attempt submitted that way still failed at the provider. Retry once on the next episode before writing it off.
 4. **Still in force from v2:** Eddie approves every cut before it's scheduled; most of Donnie's lines play over
    reaction shots, inserts or type cards; one setup line and the punchline on his face.
 5. **Don't spend on a clip Eddie has rejected twice.** Post the better of the two and move on.
