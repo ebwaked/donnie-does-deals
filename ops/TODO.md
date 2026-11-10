@@ -23,7 +23,7 @@ Check items off in place and commit, so the history shows who closed what and wh
 - [ ] Keep `ops/CREDIT_LOG.md` current from Higgsfield's transaction history after every session that spends credits.
 
 ## Done
-- [ ] **Ep. 5 "The Landlord" built 2026-11-09; line 1 re-taken, v2a/v2b sent to Eddie to pick. Not scheduled until he says "post". Target: Tue 11/10 5 AM ET.**
+- [x] 2026-11-09 Therapy Ep. 5 "The Landlord" approved by Eddie (cut v2b, line 1 re-take) and scheduled for Tue 2026-11-10 5:00 AM ET (Upload-Post job `47736c8220bf4b0d99866171f70b8cb4`). Caption kept as written, incl. the on-time rent sentence.
 - [x] 2026-11-03 Therapy Ep. 4 "The Celebration" approved by Eddie ("Post") and scheduled for Tue 2026-11-03 5:00 AM ET (Upload-Post job `03dfb339ef4a48cd9e661da96291cd10`). First episode under lip-sync v3. MiniMax H3 A/B failed; retry next episode.
 - [x] 2026-10-30 Therapy Ep. 3 "Closing Costs" **v1** re-scheduled for Sun 2026-11-01 5:00 AM ET (Upload-Post job `2bc82d0da7a44b36a275c3257c4503df`). v2 (lip-sync v2 rules) was judged worse by Eddie and shelved; v1 job `c27a0dce…` had been cancelled and was re-posted.
 - [x] 2026-10-30 "Open House Weekend" scheduled for Sat 2026-10-31 5:00 AM ET (Upload-Post job `6680cb69f7a14ccfb748e4c4d5cbe4fd`).
