@@ -101,3 +101,11 @@ fact and reduce how much of Donnie's mouth the viewer sees.
 4. **Still in force from v2:** Eddie approves every cut before it's scheduled; most of Donnie's lines play over
    reaction shots, inserts or type cards; one setup line and the punchline on his face.
 5. **Don't spend on a clip Eddie has rejected twice.** Post the better of the two and move on.
+
+## Line starts (added 2026-11-09, after Ep. 5)
+Eddie flagged Ep. 5's first line: the sound came in before Donnie's mouth moved. Cause: the prompt said "keeps his
+mouth closed for the first moment" and the first word sat right at the cut. From now on:
+- **Never prompt for a closed mouth at the start** of a talking clip. Say "his lips move on the very first word".
+- **0.5s audio lead** on Donnie's clips (was 0.3s); cut video and audio from 0.5s together. No offsets.
+- **Two takes of the opening line** of every episode; Eddie picks. The opening line is where viewers judge sync.
+- Budget: Eddie OK'd drawing on the shared Higgsfield pool (2026-11-09). Keep logging DDD spend.
