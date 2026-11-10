@@ -13,11 +13,11 @@ left over from before it. DDD spends are identified by job ID in the ledger belo
 | | Credits |
 |---|---|
 | DDD budget (credit package, 2026-10-21) | 500.0 |
-| Spent by DDD to date | 463.3 |
-| **DDD remaining on paper** | **36.7** |
+| Spent by DDD to date | ~504.8 |
+| **DDD remaining on paper** | **~−4.8 (500 budget used up; now drawing on the shared pool)** |
 | Spent by other projects since the package (3D, images, Seedance; not DDD) | 221.0 |
 | Plan credits granted 2026-10-24 (account-wide, not DDD-specific) | +1000.0 |
-| **Actual account balance (2026-11-03)** | **825.1** |
+| **Actual account balance (2026-11-10 UTC)** | **779.4** |
 
 Other projects have spent 221 credits from the shared pool since the DDD package landed. The plan's 1,000-credit grant
 on 2026-10-24 covers that for now, so the pool isn't the constraint; the DDD figure on paper (321.4) is what to track.
@@ -61,7 +61,8 @@ on 2026-10-24 covers that for now, so the pool isn't the constraint; the DDD fig
 | 19:23–19:32 | Wan 2.7 720p 4s ×2 | −12.0 | Therapist line 2 (second take after I clipped "you" in the edit) | `b50b0883`, `db8b1b94` (used) |
 | 2026-10-30 20:36 | Wan 2.7 ×3 | −35.0 | Ep. 3 v2 under lip-sync v2 rules: Donnie 6s + 5s at 1080p (slowed VO), therapist listening shot 5s at 720p, no audio | `8a588975` (used), `791efd79` (used), `0a293f96` (used) |
 | 2026-11-03 05:18–05:24 | Seed Audio ×3, Nano Banana 2 ×2, Wan 2.7 ×4, MiniMax H3 ×1 | −39.1 | Therapy Ep. 4 "The Celebration": VO, 2 angled keyframes (OTS, three-quarter), Donnie 6s + 4s at 1080p, therapist 3s ×2 at 720p; H3 A/B clip failed (not charged per balance; reconcile with `transactions`) | `2e578dc5`, `a5288652`, `5fc0e13e`, `2b281a02`, `01611708`, `24084fd8`, `4a80c2d8`, `998a6cc7`, `2b092c50`, `2529aee5` (failed) |
-| | | **−463.3** | **Total spent by DDD** | |
+| 2026-11-10 04:01–04:06 | Seed Audio ×3, Wan 2.7 ×4, MiniMax H3 ×1 | ~−41.5 | Therapy Ep. 5 "The Landlord": VO, Donnie 6s + 4s at 1080p (reused angled keyframes), therapist 3s + 4s at 720p; H3 A/B failed again. Estimate from list prices; account dropped 45.7 since 11/03, reconcile against `transactions` | `ccd12d03`, `394a7a50`, `f8216ff6`, `a8d1a3ea`, `520c91e5`, `56e6e618`, `51308341`, `d2d154fe` (failed) |
+| | | **~−504.8** | **Total spent by DDD** | |
 
 Non-DDD spends in the same window (excluded above): Text to 3D ×19 (−102.5), GPT Image ×17 (−25.5), Tripo 3D (−9.0), Seedance 2.5 ×2 on 2026-10-27 (−84.0).
 
@@ -81,7 +82,8 @@ Non-DDD spends in the same window (excluded above): Text to 3D ×19 (−102.5), 
 | Therapy Ep. 3 "Closing Costs" v1 (5 shots + 1 re-take; posted) | 63.8 |
 | Therapy Ep. 3 v2 (2 Donnie shots + listening shot; shelved, judged worse) | 35.0 |
 | Therapy Ep. 4 "The Celebration" (v3 rules: 2 angled Donnie shots, listening shot reused, type card) | 39.1 |
-| **Total** | **463.3** |
+| Therapy Ep. 5 "The Landlord" (2 Donnie shots, 2 therapist shots, rent-vs-mortgage card) | ~41.5 |
+| **Total** | **~504.8** |
 
 Under the 2026-10-28 production rules (1080p, one clip per line, re-takes when sync is off), expect about 35–45
 credits per episode, up from ~20–30.

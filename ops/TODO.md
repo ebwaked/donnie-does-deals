@@ -3,6 +3,7 @@
 Check items off in place and commit, so the history shows who closed what and when.
 
 ## Eddie
+- [ ] DDD's 500-credit budget is used up (Ep. 5). Decide: keep drawing on the shared Higgsfield pool, or buy a DDD top-up.
 - [ ] **Instagram bio link → `donniedeals.com/ig`** (in the IG app). Do this before pilot 1 posts; the caption says "link in bio".
 - [ ] Delete the 3 test rows in the Leads sheet (Test Lead, Endpoint Test, Site Test). Optional.
 - [ ] Meta pixel ID + ad account ID → `_secrets/SECRETS.env`. Needed before any ad spend.
@@ -23,6 +24,7 @@ Check items off in place and commit, so the history shows who closed what and wh
 - [ ] Keep `ops/CREDIT_LOG.md` current from Higgsfield's transaction history after every session that spends credits.
 
 ## Done
+- [ ] **Ep. 5 "The Landlord" built 2026-11-09 and sent to Eddie. Not scheduled until he says "post". Target: Tue 11/10 5 AM ET.**
 - [x] 2026-11-03 Therapy Ep. 4 "The Celebration" approved by Eddie ("Post") and scheduled for Tue 2026-11-03 5:00 AM ET (Upload-Post job `03dfb339ef4a48cd9e661da96291cd10`). First episode under lip-sync v3. MiniMax H3 A/B failed; retry next episode.
 - [x] 2026-10-30 Therapy Ep. 3 "Closing Costs" **v1** re-scheduled for Sun 2026-11-01 5:00 AM ET (Upload-Post job `2bc82d0da7a44b36a275c3257c4503df`). v2 (lip-sync v2 rules) was judged worse by Eddie and shelved; v1 job `c27a0dce…` had been cancelled and was re-posted.
 - [x] 2026-10-30 "Open House Weekend" scheduled for Sat 2026-10-31 5:00 AM ET (Upload-Post job `6680cb69f7a14ccfb748e4c4d5cbe4fd`).
